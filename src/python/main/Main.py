@@ -1,8 +1,6 @@
 from simpy import Environment
 from modules.network.IPV4 import IPV4
-from modules.network.Link import Link
 from modules.network.Node import Node
-from modules.network.Packet import Packet
 from modules.network.Network import generate_packets
 
 
