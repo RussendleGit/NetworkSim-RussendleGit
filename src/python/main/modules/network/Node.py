@@ -1,6 +1,7 @@
 from simpy import Environment
 from modules.network.Link import Link
 from modules.network.Packet import Packet
+
 class Node:
   env: Environment
   name: str
